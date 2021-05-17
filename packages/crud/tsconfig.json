@@ -1,11 +1,13 @@
 {
-	"extends": "../../tsconfig.base.json",
+	"extends": "../../tsconfig.json",
 	"compilerOptions": {
 		"rootDir": "./src",
 		"outDir": "./dist",
 		"tsBuildInfoFile": "../../.build-cache/crud.tsbuildinfo"
 	},
 	"include": ["src"],
+	// We must add the packages that crud uses so TypeScript knows
+	// where to fetch the type declarations from and how to build it
 	"references": [
 		{
 			"path": "../example",
