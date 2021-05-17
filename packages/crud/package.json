@@ -1,7 +1,13 @@
 {
-	"name": "@otters/crud",
+	"name": "@acme/crud",
 	"version": "1.0.0",
 	"main": "index.js",
 	"author": "Alistair Smith",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"ts-node-dev": "^1.1.6"
+	},
+	"scripts": {
+		"dev": "ts-node-dev --exit-child src/index.ts"
+	}
 }

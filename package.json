@@ -1,9 +1,9 @@
 {
-	"name": "@otters/otters",
+	"name": "@alii/prisma-monorepo-example",
 	"version": "1.0.0",
 	"private": true,
-	"repository": "https://github.com/otters/otters",
-	"author": "Otters Dev Team",
+	"repository": "https://github.com/alii/prisma-monorepo-example",
+	"author": "Alistair Smith",
 	"license": "MIT",
 	"workspaces": {
 		"packages": [
@@ -12,25 +12,26 @@
 	},
 	"scripts": {
 		"migrate": "prisma migrate dev",
-		"migrate:deploy": "prisma migrate deploy"
+		"migrate:deploy": "prisma migrate deploy",
+		"generate": "prisma generate"
 	},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.22.0",
-		"@typescript-eslint/parser": "^4.22.0",
-		"eslint": "^7.24.0",
-		"eslint-config-prettier": "^8.2.0",
-		"eslint-plugin-jsdoc": "^32.3.0",
+		"@typescript-eslint/eslint-plugin": "^4.23.0",
+		"@typescript-eslint/parser": "^4.23.0",
+		"eslint": "^7.26.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-jsdoc": "^34.6.3",
 		"eslint-plugin-prettier": "^3.4.0",
 		"husky": "^6.0.0",
-		"lint-staged": "^10.5.4",
-		"prettier": "^2.2.1",
+		"lint-staged": "^11.0.0",
+		"prettier": "^2.3.0",
 		"pretty-quick": "^3.1.0",
-		"prisma": "^2.21.2",
+		"prisma": "^2.22.1",
 		"ts-node": "^9.1.1",
 		"typescript": "^4.2.4"
 	},
 	"dependencies": {
-		"@prisma/client": "^2.21.2"
+		"@prisma/client": "^2.22.1"
 	},
 	"engines": {
 		"npm": ">=6.14.x",

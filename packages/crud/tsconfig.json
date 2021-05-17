@@ -6,5 +6,10 @@
 		"tsBuildInfoFile": "../../.build-cache/crud.tsbuildinfo"
 	},
 	"include": ["src"],
-	"references": [{"path": "../api", "prepend": false}]
+	"references": [
+		{
+			"path": "../example",
+			"prepend": false
+		}
+	]
 }
