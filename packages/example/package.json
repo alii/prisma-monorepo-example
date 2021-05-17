@@ -1,7 +1,12 @@
 {
 	"name": "@acme/example",
 	"version": "1.0.0",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"author": "Alistair Smith",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc -w"
+	}
 }

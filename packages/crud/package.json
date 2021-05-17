@@ -1,13 +1,16 @@
 {
 	"name": "@acme/crud",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"author": "Alistair Smith",
-	"license": "MIT",
 	"devDependencies": {
 		"ts-node-dev": "^1.1.6"
 	},
 	"scripts": {
-		"dev": "ts-node-dev --exit-child src/index.ts"
+		"dev": "ts-node-dev --exit-child src/index.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@acme/example": "1.0.0"
 	}
 }

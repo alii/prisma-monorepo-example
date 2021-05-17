@@ -1,5 +1,5 @@
 {
-	"extends": "../../tsconfig.json",
+	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"rootDir": "./src",
 		"outDir": "./dist",
@@ -10,8 +10,7 @@
 	// where to fetch the type declarations from and how to build it
 	"references": [
 		{
-			"path": "../example",
-			"prepend": false
+			"path": "../example"
 		}
 	]
 }
