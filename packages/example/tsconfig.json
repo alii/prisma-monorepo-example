@@ -1,0 +1,10 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"tsBuildInfoFile": "../../.build-cache/crud.tsbuildinfo"
+	},
+	"include": ["src"],
+	"references": [{"path": "../api", "prepend": false}]
+}

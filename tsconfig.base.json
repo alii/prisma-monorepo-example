@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2018",
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"strict": true,
+		"baseUrl": "./packages",
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"paths": {
+			"@otters/*": ["./*/src"]
+		}
+	}
+}
